@@ -19,8 +19,6 @@ Unzip it and copy it to the "Lib" folder. Then follow the MatConvNet installatio
 
 Unzip the data, split them into 'training' and 'testing' and put them to a certain folder and set the corresponding parameters in "InitParam.m".
 
-Here you can also use your own data, which should be in PNG format and change parameters accordingly.
-
 3.Execute "PrepareData.m" to prepare training and testing data.
 
 The training and testing data are stored as .h5 files.
