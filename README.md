@@ -6,8 +6,10 @@ J. Peng, Z. Xiong, D. Liu and X. Chen, "Unsupervised Depth Estimation from Light
 This alogorithm takes in a light field image (synthetic or real-world) with 7*7 angular resolution, and compute depth for the central view. The network is trained in a unsupervised manner, which requires no groundtruth depth label, and can be used for data captured by any camera models.
 
 ### Requirements
->Matlab
+>Matlab 
+
 >Matconvnet
+
 >Cuda, Cudnn
 
 ### Usage
