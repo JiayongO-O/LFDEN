@@ -3,7 +3,7 @@ The source code for "Unsupervised Depth Estimation from Light Field Using a Conv
 J. Peng, Z. Xiong, D. Liu and X. Chen, "Unsupervised Depth Estimation from Light Field Using a Convolutional Neural Network," 2018 International Conference on 3D Vision (3DV), Verona, 2018, pp. 295-303.
 
 ### Overview
-This alogorithm takes in a light field image (synthetic or real-world) with 7*7 angular resolution, and compute depth for the central view. The network is trained in a unsupervised manner, which requires no groundtruth depth label, and can be used for data captured by any camera models.
+This algorithm takes in a light field image (synthetic or real-world) with 7*7 angular resolution, and compute depth for the central view. The network is trained in a unsupervised manner, which requires no groundtruth depth label, and can be used for data captured by any camera models.
 
 ### Requirements
 >Matlab 
