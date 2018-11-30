@@ -21,7 +21,7 @@ Unzip the data, split them into 'training' and 'testing' and put them to a certa
 
 3.Execute "PrepareData.m" to prepare training and testing data.
 
-The training and testing data are stored as .h5 files.
+The training and testing data are stored as h5 files.
 
 4.Execute "main.m" to start training.
 
