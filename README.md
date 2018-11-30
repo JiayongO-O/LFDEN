@@ -1,9 +1,7 @@
 # LF_Unsupervised_DisparityEstimation_3DV2018
-The source code for "Unsupervised Depth Estimation from Light Field Using a Convolutional Neural Network"
-J. Peng, Z. Xiong, D. Liu and X. Chen, "Unsupervised Depth Estimation from Light Field Using a Convolutional Neural Network," 2018 International Conference on 3D Vision (3DV), Verona, 2018, pp. 295-303.
 
 ### Overview
-This algorithm takes in a light field image (synthetic or real-world) with 7*7 angular resolution, and compute depth for the central view. The network is trained in a unsupervised manner, which requires no groundtruth depth label, and can be used for data captured by any camera models.
+This algorithm takes in a light field image (synthetic or real-world), and compute depth for the central view with a CNN. The network is trained in an unsupervised manner which requires no groundtruth depth label, and can be used for data captured by any camera models.
 
 ### Requirements
 >Matlab 
@@ -23,13 +21,13 @@ Unzip the data, split them into 'training' and 'testing' and put them to a certa
 
 Here you can also use your own data, which should be in PNG format and change parameters accordingly.
 
-3.Execute "PrepareData.m" to prepare training and testing code.
+3.Execute "PrepareData.m" to prepare training and testing data.
 
-The training and testing data are stored as .h files, which the training code needs. Note the h5 fils are large.
+The training and testing data are stored as .h5 files.
 
 4.Execute "main.m" to start training.
 
-It will take several days to converge for the network on Nvidia Geforce GTX 1080Ti. And the tests are integrated in training procedure (you can also test solely). Corresponding curves are provided.
+It will take several days for the network to converge on a Nvidia Geforce GTX 1080Ti.
 
 ### Citation
 If you use this code for your research, please cite our papers.
