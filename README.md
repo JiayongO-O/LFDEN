@@ -29,7 +29,7 @@ The training and testing data are stored as .h files, which the training code ne
 
 It will take several days to converge for the network on Nvidia Geforce GTX 1080Ti. And the tests are integrated in training procedure (you can also test solely). Corresponding curves are provided.
 
-###Citation
+### Citation
 If you use this code for your research, please cite our papers.
 ```
 @inproceedings{peng2018unsupervised,
@@ -42,5 +42,5 @@ If you use this code for your research, please cite our papers.
 }
 ```
 
-###Version History
+### Version History
 1.v1.0 -- Initial release (Nov. 2018)
