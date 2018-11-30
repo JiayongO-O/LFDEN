@@ -1,7 +1,7 @@
 # LF_Unsupervised_DisparityEstimation_3DV2018
 
 ### Overview
-This algorithm takes in a light field image (synthetic or real-world), and compute depth for the central view with a CNN. The network is trained in an unsupervised manner which requires no groundtruth depth label, and can be used for data captured by any camera models.
+This algorithm takes in a light field image (synthetic or real-world), and computes depth for the central view with a CNN. The network is trained in an unsupervised manner which requires no groundtruth depth label, and can be used for data captured by any camera models.
 
 ### Requirements
 >Matlab 
