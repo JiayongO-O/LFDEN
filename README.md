@@ -25,7 +25,7 @@ The training and testing data are stored as h5 files.
 
 4.Execute "main.m" to start training.
 
-It will take several days for the network to converge on a Nvidia Geforce GTX 1080Ti.
+It will take several days for the network to converge on an Nvidia Geforce GTX 1080Ti.
 
 ### Citation
 If you use this code for your research, please cite our papers.
