@@ -42,3 +42,4 @@ If you use this code for your research, please cite our papers.
 
 ### Version History
 1.v1.0 -- Initial release (Nov. 2018)
+2.v1.1 -- Upload 'ReadLFImages_MAT.m' to avoid possible bugs (Feb. 2019)
