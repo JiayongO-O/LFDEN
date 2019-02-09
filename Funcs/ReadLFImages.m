@@ -1,5 +1,6 @@
 function [fullLF] = ReadLFImages(scenePath)
-% This function is used to read in the 9*9 sub-aperture light field images.
+% If the light field images are in H*W*CH*U*V, directly get the fullLF, 
+% else if the light field images are in macro-pixel format, use this function.
 numImgsX = 9;
 numImgsY = 9;
 inputImg = im2double(imread(scenePath));
