@@ -1,5 +1,5 @@
 function [fullLF] = ReadLFImages(scenePath)
-% This function is used to read in the 8*8 sub-aperture light field images.
+% This function is used to read in the 9*9 sub-aperture light field images.
 numImgsX = 9;
 numImgsY = 9;
 inputImg = im2double(imread(scenePath));
