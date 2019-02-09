@@ -1,6 +1,7 @@
 function [fullLF] = ReadLFImages(scenePath)
-% If the light field images are in H*W*CH*U*V, directly get the fullLF, 
+% If the light field images are in .mat format, use ReadLFImages_MAT function, 
 % else if the light field images are in macro-pixel format, use this function.
+% MIND THE DIMENSION AND FORMATE OF THE INPUT DATA!!!
 numImgsX = 9;
 numImgsY = 9;
 inputImg = im2double(imread(scenePath));
