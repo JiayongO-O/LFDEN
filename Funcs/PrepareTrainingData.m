@@ -19,6 +19,7 @@ for ns = 1 : numScenes
     fprintf('Working on the "%s" dataset (%d of %d)\n', sceneNames{ns}(1:end-4), ns, numScenes);
     
     fprintf('Loading input light field ...');
+    % Here mind the input data formate and decide to choose ReadLFImages or ReadLFImages_MAT
     [curFullLF] = ReadLFImages(scenePaths{ns}); 
 
     fprintf(repmat('\b', 1, 3));
