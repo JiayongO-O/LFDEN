@@ -4,7 +4,7 @@
 This algorithm takes in a light field image (synthetic or real-world), and computes depth for the central view with a CNN. The network is trained in an unsupervised manner which requires no groundtruth depth label, and can be used for data captured by any camera models.
 
 ### Requirements
->Matlab 
+>Matlab 2017b (some files are compiled under it)
 
 >Matconvnet
 
