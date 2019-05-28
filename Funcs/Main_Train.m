@@ -21,7 +21,10 @@ while (1)
         count = fprintf('Performing iteration %d', it);
     end
     
-    %% main optimization
+    %% main optimization， NetworkTrain.p is compiled under Matlabe 2017b, other versions may give errors
+    % the output for NetworkTrain is:
+    % [depthRes, error, depth]=NetworkTrain(it, depthNet, images, refPos, true, depthFeat, reference);
+    % the depthRes is the little update step for the depthNet, error is the error on the input data, depth is the output depth.
     [images, depthFeat, reference, refPos] = ReadData(param.trainingNames{1}, [], it);
     [depthRes, ~, ~] = NetworkTrain(it, depthNet, images, refPos, true, depthFeat, reference);
     
