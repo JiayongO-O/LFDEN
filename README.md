@@ -1,16 +1,19 @@
-# [LF_Unsupervised_DisparityEstimation_3DV2018](https://ieeexplore.ieee.org/abstract/document/8490980)
-
+# Light field depth estimation networks
 ### Overview
-This algorithm takes in a light field image (synthetic or real-world), and computes depth for the central view with a CNN. The network is trained in an unsupervised manner which requires no groundtruth depth label, and can be used for data captured by any camera models.
+
+This are the official implementations for the light field depth estimation networks in following papers:
+Jiayong Peng, Zhiwei Xiong, Dong Liu, Xuejin Chen. "[Unsupervised Depth Estimation from Light Field Using a Convolutional Neural Network](https://ieeexplore.ieee.org/document/8490980)". In 3DV 2018
+Jiayong Peng, Zhiwei Xiong, Yicheng Wang, Yueyi Zhang, Dong Liu. "[Zero-shot Depth Estimation From Light Field Using A Convolutional Neural Network](https://ieeexplore.ieee.org/document/8961135)". IEEE Transactions on Computational Imaging 2020
+
+----
 
 ### Requirements
 >Ubuntu 16.04
-
 >Matlab 2017b (some files are compiled under it)
-
 >Matconvnet
-
 >Cuda, Cudnn
+
+----
 
 ### Usage
 1.Download the Matconvnet package from [here](http://www.vlfeat.org/matconvnet/).
@@ -19,15 +22,13 @@ Unzip it and copy it to the "Lib" folder. Then follow the MatConvNet installatio
 
 2.Dowload the training and test data from [HCI dataset](http://hci-lightfield.iwr.uni-heidelberg.de/).
 
-Unzip the data, split them into 'training' and 'testing' and put them to a certain folder and set the corresponding parameters in "InitParam.m".
+Unzip the data and put them to a certain folder and set the corresponding parameters in "InitParam.m".
 
-3.Execute "PrepareData.m" to prepare training and testing data.
+3.For *Unsupervised Depth Estimation from Light Field Using a Convolutional Neural Network (3DV2018)*, please change to './3DV2018' and execute corresponding files according to the README.md
 
-The training and testing data are stored as h5 files.
+4.For *Zero-shot Depth Estimation From Light Field Using A Convolutional Neural Network (TCI2020)*, please change to './TCI2020' and execute corresponding files according to the README.md
 
-4.Execute "main.m" to start training.
-
-It will take several days for the network to converge on an Nvidia Geforce GTX 1080Ti.
+----
 
 ### Citation
 If you use this code for your research, please cite our papers.
@@ -42,7 +43,19 @@ If you use this code for your research, please cite our papers.
 }
 ```
 
-### Version History
-1.v1.0 -- Initial release (Nov. 2018)
+```
+@article{8961135,
+	author={Jiayong Peng and Zhiwei Xiong and Yicheng Wang and Yueyi Zhang and Dong Liu},
+	journal={IEEE Transactions on Computational Imaging}, 
+	title={Zero-Shot Depth Estimation From Light Field Using A Convolutional Neural Network}, 
+	year={2020},
+	volume={6},
+	pages={682-696},
+	organization={IEEE}
+}
+```
 
-2.v1.1 -- Upload 'ReadLFImages_MAT.m' to avoid possible bugs (Feb. 2019)
+-----
+
+### Version History
+1.v1.0 -- Initial release (Jan. 2021)
