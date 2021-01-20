@@ -1,16 +1,21 @@
 # Light field depth estimation networks
 ### Overview
 
-This are the official implementations for the light field depth estimation networks in following papers:
+The official implementations for the light field depth estimation networks in following papers:
+
 Jiayong Peng, Zhiwei Xiong, Dong Liu, Xuejin Chen. "[Unsupervised Depth Estimation from Light Field Using a Convolutional Neural Network](https://ieeexplore.ieee.org/document/8490980)". In 3DV 2018
+
 Jiayong Peng, Zhiwei Xiong, Yicheng Wang, Yueyi Zhang, Dong Liu. "[Zero-shot Depth Estimation From Light Field Using A Convolutional Neural Network](https://ieeexplore.ieee.org/document/8961135)". IEEE Transactions on Computational Imaging 2020
 
 ----
 
 ### Requirements
 >Ubuntu 16.04
+
 >Matlab 2017b (some files are compiled under it)
+
 >Matconvnet
+
 >Cuda, Cudnn
 
 ----
@@ -41,10 +46,8 @@ If you use this code for your research, please cite our papers.
   year={2018},
   organization={IEEE}
 }
-```
 
-```
-@article{8961135,
+@article{peng2020zeroshot,
 	author={Jiayong Peng and Zhiwei Xiong and Yicheng Wang and Yueyi Zhang and Dong Liu},
 	journal={IEEE Transactions on Computational Imaging}, 
 	title={Zero-Shot Depth Estimation From Light Field Using A Convolutional Neural Network}, 

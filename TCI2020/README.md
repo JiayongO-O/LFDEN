@@ -28,7 +28,7 @@ It will take several days for the network to converge on an Nvidia Geforce GTX 1
 ### Citation
 If you use this code for your research, please cite our papers.
 ```
-@article{8961135,
+@article{peng2020zeroshot,
 	author={Jiayong Peng and Zhiwei Xiong and Yicheng Wang and Yueyi Zhang and Dong Liu},
 	journal={IEEE Transactions on Computational Imaging}, 
 	title={Zero-Shot Depth Estimation From Light Field Using A Convolutional Neural Network}, 
